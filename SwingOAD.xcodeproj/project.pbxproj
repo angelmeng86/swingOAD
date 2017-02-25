@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F1A85731E61222200228412 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A85721E61222200228412 /* main.m */; };
+		0F1A85761E61222200228412 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A85751E61222200228412 /* AppDelegate.m */; };
+		0F1A85791E61222200228412 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A85781E61222200228412 /* ViewController.m */; };
+		0F1A857C1E61222200228412 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F1A857A1E61222200228412 /* Main.storyboard */; };
+		0F1A857E1E61222200228412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F1A857D1E61222200228412 /* Assets.xcassets */; };
+		0F1A85811E61222200228412 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F1A857F1E61222200228412 /* LaunchScreen.storyboard */; };
+		0F1A85A41E61594400228412 /* BLEUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A85961E61594400228412 /* BLEUpdater.m */; };
+		0F1A85A51E61594400228412 /* BLEUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A85981E61594400228412 /* BLEUtility.m */; };
+		0F1A85A71E61594400228412 /* CBService+LMMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A859C1E61594400228412 /* CBService+LMMethod.m */; };
+		0F1A85AA1E615DA000228412 /* DeviceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A85A91E615DA000228412 /* DeviceTableViewCell.m */; };
+		0F1A85AE1E6173F500228412 /* A-super-MP-OTA-64M-022317.bin in Resources */ = {isa = PBXBuildFile; fileRef = 0F1A85AC1E6173F500228412 /* A-super-MP-OTA-64M-022317.bin */; };
+		0F1A85AF1E6173F500228412 /* B-super-MP-OTA-64M-022317.bin in Resources */ = {isa = PBXBuildFile; fileRef = 0F1A85AD1E6173F500228412 /* B-super-MP-OTA-64M-022317.bin */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F1A856E1E61222200228412 /* SwingOAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwingOAD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F1A85721E61222200228412 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F1A85741E61222200228412 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F1A85751E61222200228412 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F1A85771E61222200228412 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F1A85781E61222200228412 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F1A857B1E61222200228412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F1A857D1E61222200228412 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F1A85801E61222200228412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F1A85821E61222200228412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F1A85951E61594400228412 /* BLEUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEUpdater.h; sourceTree = "<group>"; };
+		0F1A85961E61594400228412 /* BLEUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEUpdater.m; sourceTree = "<group>"; };
+		0F1A85971E61594400228412 /* BLEUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEUtility.h; sourceTree = "<group>"; };
+		0F1A85981E61594400228412 /* BLEUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEUtility.m; sourceTree = "<group>"; };
+		0F1A859B1E61594400228412 /* CBService+LMMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBService+LMMethod.h"; sourceTree = "<group>"; };
+		0F1A859C1E61594400228412 /* CBService+LMMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBService+LMMethod.m"; sourceTree = "<group>"; };
+		0F1A859D1E61594400228412 /* oad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oad.h; sourceTree = "<group>"; };
+		0F1A85A81E615DA000228412 /* DeviceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceTableViewCell.h; sourceTree = "<group>"; };
+		0F1A85A91E615DA000228412 /* DeviceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceTableViewCell.m; sourceTree = "<group>"; };
+		0F1A85AB1E61709E00228412 /* BLEDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLEDelegate.h; sourceTree = "<group>"; };
+		0F1A85AC1E6173F500228412 /* A-super-MP-OTA-64M-022317.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "A-super-MP-OTA-64M-022317.bin"; sourceTree = "<group>"; };
+		0F1A85AD1E6173F500228412 /* B-super-MP-OTA-64M-022317.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "B-super-MP-OTA-64M-022317.bin"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F1A856B1E61222200228412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F1A85651E61222200228412 = {
+			isa = PBXGroup;
+			children = (
+				0F1A85701E61222200228412 /* SwingOAD */,
+				0F1A856F1E61222200228412 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F1A856F1E61222200228412 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F1A856E1E61222200228412 /* SwingOAD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F1A85701E61222200228412 /* SwingOAD */ = {
+			isa = PBXGroup;
+			children = (
+				0F1A85881E61594400228412 /* BLE */,
+				0F1A85741E61222200228412 /* AppDelegate.h */,
+				0F1A85751E61222200228412 /* AppDelegate.m */,
+				0F1A85AC1E6173F500228412 /* A-super-MP-OTA-64M-022317.bin */,
+				0F1A85AD1E6173F500228412 /* B-super-MP-OTA-64M-022317.bin */,
+				0F1A85771E61222200228412 /* ViewController.h */,
+				0F1A85781E61222200228412 /* ViewController.m */,
+				0F1A857A1E61222200228412 /* Main.storyboard */,
+				0F1A857D1E61222200228412 /* Assets.xcassets */,
+				0F1A857F1E61222200228412 /* LaunchScreen.storyboard */,
+				0F1A85821E61222200228412 /* Info.plist */,
+				0F1A85711E61222200228412 /* Supporting Files */,
+				0F1A85A81E615DA000228412 /* DeviceTableViewCell.h */,
+				0F1A85A91E615DA000228412 /* DeviceTableViewCell.m */,
+			);
+			path = SwingOAD;
+			sourceTree = "<group>";
+		};
+		0F1A85711E61222200228412 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F1A85721E61222200228412 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F1A85881E61594400228412 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				0F1A85AB1E61709E00228412 /* BLEDelegate.h */,
+				0F1A85951E61594400228412 /* BLEUpdater.h */,
+				0F1A85961E61594400228412 /* BLEUpdater.m */,
+				0F1A85971E61594400228412 /* BLEUtility.h */,
+				0F1A85981E61594400228412 /* BLEUtility.m */,
+				0F1A859B1E61594400228412 /* CBService+LMMethod.h */,
+				0F1A859C1E61594400228412 /* CBService+LMMethod.m */,
+				0F1A859D1E61594400228412 /* oad.h */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F1A856D1E61222200228412 /* SwingOAD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F1A85851E61222200228412 /* Build configuration list for PBXNativeTarget "SwingOAD" */;
+			buildPhases = (
+				0F1A856A1E61222200228412 /* Sources */,
+				0F1A856B1E61222200228412 /* Frameworks */,
+				0F1A856C1E61222200228412 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwingOAD;
+			productName = SwingOAD;
+			productReference = 0F1A856E1E61222200228412 /* SwingOAD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F1A85661E61222200228412 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Maple;
+				TargetAttributes = {
+					0F1A856D1E61222200228412 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WA4RYXHUS9;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0F1A85691E61222200228412 /* Build configuration list for PBXProject "SwingOAD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F1A85651E61222200228412;
+			productRefGroup = 0F1A856F1E61222200228412 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F1A856D1E61222200228412 /* SwingOAD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F1A856C1E61222200228412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1A85AE1E6173F500228412 /* A-super-MP-OTA-64M-022317.bin in Resources */,
+				0F1A85811E61222200228412 /* LaunchScreen.storyboard in Resources */,
+				0F1A857E1E61222200228412 /* Assets.xcassets in Resources */,
+				0F1A857C1E61222200228412 /* Main.storyboard in Resources */,
+				0F1A85AF1E6173F500228412 /* B-super-MP-OTA-64M-022317.bin in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F1A856A1E61222200228412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1A85791E61222200228412 /* ViewController.m in Sources */,
+				0F1A85A51E61594400228412 /* BLEUtility.m in Sources */,
+				0F1A85A41E61594400228412 /* BLEUpdater.m in Sources */,
+				0F1A85A71E61594400228412 /* CBService+LMMethod.m in Sources */,
+				0F1A85761E61222200228412 /* AppDelegate.m in Sources */,
+				0F1A85731E61222200228412 /* main.m in Sources */,
+				0F1A85AA1E615DA000228412 /* DeviceTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F1A857A1E61222200228412 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F1A857B1E61222200228412 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F1A857F1E61222200228412 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F1A85801E61222200228412 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F1A85831E61222200228412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F1A85841E61222200228412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F1A85861E61222200228412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WA4RYXHUS9;
+				INFOPLIST_FILE = SwingOAD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.hndev.SwingOAD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0F1A85871E61222200228412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WA4RYXHUS9;
+				INFOPLIST_FILE = SwingOAD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.hndev.SwingOAD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F1A85691E61222200228412 /* Build configuration list for PBXProject "SwingOAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F1A85831E61222200228412 /* Debug */,
+				0F1A85841E61222200228412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F1A85851E61222200228412 /* Build configuration list for PBXNativeTarget "SwingOAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F1A85861E61222200228412 /* Debug */,
+				0F1A85871E61222200228412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F1A85661E61222200228412 /* Project object */;
+}
